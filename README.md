@@ -9,7 +9,7 @@ This project required Pytorch and Pymatgen
 
 # Usage
 
-For training and test, you need a dataset consist of structure files (cif format) and related properties data (id_prop.csv) in same directory(data_demo). Then, you can run training by following command:
+For training and test, you need a dataset consist of structure files (cif format) and related properties data (id_prop.csv) in same directory (data_demo). Then, you can run training by following command:
 ```
 python main.py data_demo
 ```
