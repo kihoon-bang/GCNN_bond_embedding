@@ -1,0 +1,38 @@
+data_image0
+_chemical_formula_structural       Pt12O
+_chemical_formula_sum              "Pt12 O1"
+_cell_length_a       6.82302
+_cell_length_b       2.78549
+_cell_length_c       28.8451
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pt  Pt1       1.0  0.66439  0.50000  0.65409  1.0000
+  Pt  Pt2       1.0  0.31984  1.00000  0.62459  1.0000
+  Pt  Pt3       1.0  0.99838  0.50000  0.60130  1.0000
+  Pt  Pt4       1.0  0.66628  0.00000  0.57106  1.0000
+  Pt  Pt5       1.0  0.32972  0.50000  0.54066  1.0000
+  Pt  Pt6       1.0  0.99631  1.00000  0.51422  1.0000
+  Pt  Pt7       1.0  0.66667  0.50000  0.48606  1.0000
+  Pt  Pt8       1.0  0.33333  0.00000  0.45819  1.0000
+  Pt  Pt9       1.0  0.00000  0.50000  0.43031  1.0000
+  Pt  Pt10      1.0  0.66667  0.00000  0.40243  1.0000
+  Pt  Pt11      1.0  0.33333  0.50000  0.37456  1.0000
+  Pt  Pt12      1.0  0.00000  0.00000  0.34668  1.0000
+  O   O1        1.0  0.69604  0.00000  0.70074  1.0000

@@ -1,0 +1,42 @@
+data_image0
+_chemical_formula_structural       Pt16O
+_chemical_formula_sum              "Pt16 O1"
+_cell_length_a       5.57097
+_cell_length_b       5.57097
+_cell_length_c       26.823
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    60
+
+_space_group_name_H-M_alt    "P 1"
+_space_group_IT_number       1
+
+loop_
+  _space_group_symop_operation_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_type_symbol
+  _atom_site_label
+  _atom_site_symmetry_multiplicity
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_occupancy
+  Pt  Pt1       1.0  0.00000  0.00000  0.37281  1.0000
+  Pt  Pt2       1.0  0.50000  0.00000  0.37281  1.0000
+  Pt  Pt3       1.0  0.00000  0.50000  0.37281  1.0000
+  Pt  Pt4       1.0  0.50000  0.50000  0.37281  1.0000
+  Pt  Pt5       1.0  0.16667  0.16667  0.45760  1.0000
+  Pt  Pt6       1.0  0.66667  0.16667  0.45760  1.0000
+  Pt  Pt7       1.0  0.16667  0.66667  0.45760  1.0000
+  Pt  Pt8       1.0  0.66667  0.66667  0.45760  1.0000
+  Pt  Pt9       1.0  0.84277  0.31687  0.54147  1.0000
+  Pt  Pt10      1.0  0.34039  0.31688  0.54146  1.0000
+  Pt  Pt11      1.0  0.84199  0.81608  0.54653  1.0000
+  Pt  Pt12      1.0  0.33973  0.82056  0.54167  1.0000
+  Pt  Pt13      1.0  0.00657  0.96750  0.63158  1.0000
+  Pt  Pt14      1.0  0.52604  0.96747  0.63158  1.0000
+  Pt  Pt15      1.0  0.00694  0.48615  0.63115  1.0000
+  Pt  Pt16      1.0  0.51329  0.47349  0.62533  1.0000
+  O   O1        1.0  0.18003  0.14004  0.67546  1.0000
