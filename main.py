@@ -22,8 +22,8 @@ parser = argparse.ArgumentParser(description='BE-CGCNN')
 parser.add_argument('data_options', metavar='OPTIONS', nargs='+',
                     help='dataset options, started with the path to root dir, '
                          'then other options')
-parser.add_argument('--rand-seed', default='234', metavar='R',
-                    help='random seed (default: 234)')                   
+parser.add_argument('--rand-seed', default='16712', metavar='R',
+                    help='random seed (default: 16712)')                   
 parser.add_argument('--radius', default=5.0, type=float, metavar='RD',
                     help='radius (default: 5.0)')                       
 parser.add_argument('--inner-radius', default=4.0, type=float, metavar='IRD',
@@ -35,15 +35,15 @@ parser.add_argument('--disable-cuda', action='store_true',
                     help='Disable CUDA')
 parser.add_argument('-j', '--workers', default=0, type=int, metavar='N',
                     help='number of data loading workers (default: 0)')
-parser.add_argument('--epochs', default=1000, type=int, metavar='N',
-                    help='number of total epochs to run (default: 1000)')
+parser.add_argument('--epochs', default=2000, type=int, metavar='N',
+                    help='number of total epochs to run (default: 2000)')
 parser.add_argument('--start-epoch', default=0, type=int, metavar='N',
                     help='manual epoch number (useful on restarts)')
-parser.add_argument('-b', '--batch-size', default=128, type=int,
-                    metavar='N', help='mini-batch size (default: 128)')
-parser.add_argument('--lr', '--learning-rate', default=0.001, type=float,
+parser.add_argument('-b', '--batch-size', default=139, type=int,
+                    metavar='N', help='mini-batch size (default: 139)')
+parser.add_argument('--lr', '--learning-rate', default=0.0001, type=float,
                     metavar='LR', help='initial learning rate (default: '
-                                       '0.081)')
+                                       '0.0001)')
 parser.add_argument('--lr-milestones', default=[100], nargs='+', type=int,
                     metavar='N', help='milestones for scheduler (default: '
                                       '[100])')
@@ -77,11 +77,11 @@ test_group.add_argument('--test-size', default=None, type=int, metavar='N',
 
 parser.add_argument('--optim', default='Adam', type=str, metavar='Adam',
                     help='choose an optimizer, SGD or Adam, (default: Adam)')
-parser.add_argument('--atom-fea-len', default=64, type=int, metavar='N',
+parser.add_argument('--atom-fea-len', default=121, type=int, metavar='N',
                     help='number of hidden atom features in conv layers')
-parser.add_argument('--h-fea-len', default=64, type=int, metavar='N',
+parser.add_argument('--h-fea-len', default=77, type=int, metavar='N',
                     help='number of hidden features after pooling')
-parser.add_argument('--n-conv', default=5, type=int, metavar='N',
+parser.add_argument('--n-conv', default=6, type=int, metavar='N',
                     help='number of conv layers')
 parser.add_argument('--n-h', default=1, type=int, metavar='N',
                     help='number of hidden layers after pooling')
